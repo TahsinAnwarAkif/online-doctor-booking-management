@@ -1,0 +1,22 @@
+package net.therap.onlinedoctorbookingmanagement.utilities.enums;
+
+/**
+ * @author anwar
+ * @since 3/9/18
+ */
+public enum VALID_ROLE_ACTIONS_FOR_ADMIN {
+
+    CREATE_OR_UPDATE_DOCTORS_AS_ADMIN,
+    DELETE_DOCTORS,
+    SHOW_PATIENTS,
+    UPDATE_PATIENTS,
+    DELETE_PATIENTS,
+    SHOW_SPECIALTIES,
+    CREATE_SPECIALTIES,
+    UPDATE_SPECIALTIES,
+    DELETE_SPECIALTIES,
+    SHOW_APPOINTMENTS,
+    CREATE_APPOINTMENTS,
+    UPDATE_APPOINTMENTS,
+    DELETE_APPOINTMENTS
+}

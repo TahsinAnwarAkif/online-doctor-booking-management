@@ -1,0 +1,67 @@
+.table-default {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-default td {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 5px;
+    border: 3px solid darkblue;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.table-default th {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border: 3px solid darkblue;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.table-default .tg-i6eq {
+    background-color: ghostwhite;
+    vertical-align: top;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/background-img.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+form, h1, h2, td, .btn {
+    color: darkblue;
+}
+
+hr{
+    border-color: darkblue;
+}
+
+.alert-danger{
+    font-size: 20;
+}
+
+.div-center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid darkblue;
+    padding: 10px;
+}
